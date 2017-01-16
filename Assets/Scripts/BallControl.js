@@ -25,8 +25,6 @@ function GoBall(){
 	var randomNumber = Random.Range(0, 2);
 	if(randomNumber <= 0.5){
 		rigidbody2D.AddForce(new Vector2(ballSpeed, 10));
-	}else{
-		rigidbody2D.AddForce(new Vector2(-ballSpeed, 10));
 	}
 }
 
